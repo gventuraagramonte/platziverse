@@ -1,0 +1,36 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=platziverse:* ava tests/* --verbose",
+    "setup": "DEBUG=platziverse:* node setup.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gventuraagramonte/platziverse.git"
+  },
+  "author": "Giorgio Ventura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gventuraagramonte/platziverse/issues"
+  },
+  "homepage": "https://github.com/gventuraagramonte/platziverse#readme",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "sqlite3": "^4.1.0",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "debug": "^4.1.1",
+    "defaults": "^1.0.3",
+    "inquirer": "^7.0.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  }
+}
